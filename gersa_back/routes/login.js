@@ -6,5 +6,6 @@ connection.query('SELECT * FROM usuarios', (err, field)=>{
     if(err) throw err 
     console.log(field)
 })
+console.log('jola')
 
 module.exports= Router
