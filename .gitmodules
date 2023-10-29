@@ -1,0 +1,3 @@
+[submodule "gersa_front"]
+    path = gersa_front
+    url = /gersa_front
