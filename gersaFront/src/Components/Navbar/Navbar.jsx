@@ -1,24 +1,38 @@
 import React from 'react'
-import { NavbarStyles } from './NavbarStyles'
+import { NavbarStyles ,ListItem,List,LogoNav, StyledLink} from './NavbarStyles'
 
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
   
     <NavbarStyles>
-    <img src="../../img/logo/gersa_logo.png" alt=""/>
-    <a class="menu_toggle">☰</a>
-    <ul>
-      <li><a href="">Inicio</a></li>
-      <li><a href="">Nosotros</a></li>
-      <li><a href="">Servicios</a></li>
-      <li><a href="">FAQ</a></li>
-      <li><a href="">Cotización</a></li>
-      <li><a href="" class="acceder">Acceder</a></li>
-    </ul>
-  </NavbarStyles>
+      <LogoNav src={require('../../img/logo/gersa_logo.png')} alt="" />
+      <a className="menu_toggle">☰</a>
+      <List>
+        <ListItem>
+          <StyledLink to="/">Inicio</StyledLink>
+        </ListItem>
+        <ListItem>
+          <StyledLink to="/nosotros">Nosotros</StyledLink>
+        </ListItem>
+        <ListItem>
+          <StyledLink to="/servicios">Servicios</StyledLink>
+        </ListItem>
+        <ListItem>
+          <StyledLink to="/faq">FAQ</StyledLink>
+        </ListItem>
+        <ListItem>
+          <StyledLink to="/cotizacion">Cotización</StyledLink>
+        </ListItem>
+        <ListItem>
+          <StyledLink to="/acceder" className="acceder">Acceder</StyledLink>
+        </ListItem>
+      </List>
+    </NavbarStyles>
 
 
-  )
+
+  ) 
 }
 
 export default Navbar

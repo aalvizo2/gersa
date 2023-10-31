@@ -5,8 +5,8 @@ const Login = () => {
   return (
     <LoginSection>
       <Container>
-      <Logo src="../img/logo/gersa_logo.png" alt="Logo de Gersa" />
-   
+      <Logo src={require('../../img/logo/gersa_logo.png')} alt=""/>
+       
        <DescriptionText>Especializada en inventoria, Certificaciones, Inspecciones de equipos de seguridad, seguridad industrial y acesorias en la industria Cementera</DescriptionText>
       </Container>
       <Container>
