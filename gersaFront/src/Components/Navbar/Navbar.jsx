@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavbarStyles ,ListItem,List,LogoNav, StyledLink} from './NavbarStyles'
+import { NavbarStyles ,ListItem,List,LogoNav, StyledLink, MenuToggle} from './NavbarStyles'
 
 import { Link } from 'react-router-dom';
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
   
     <NavbarStyles>
       <LogoNav src={require('../../img/logo/gersa_logo.png')} alt="" />
-      <a className="menu_toggle">☰</a>
+      <MenuToggle>☰</MenuToggle>
       <List>
         <ListItem>
           <StyledLink to="/">Inicio</StyledLink>

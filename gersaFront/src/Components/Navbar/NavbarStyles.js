@@ -35,7 +35,8 @@ padding: 25px;
 `
 export const LogoNav=styled.img`
     margin-left: 25px;
-    width: 5%;
+    width: 6%;
+    height: auto;
     padding: 5px 5px;
 
 `
@@ -51,4 +52,7 @@ text-decoration: none;
 
     }
 
+`
+export const MenuToggle=styled()`
+    display: none;
 `
