@@ -4,6 +4,7 @@ import { Container, DescriptionText, FormAccess, LoginSection, Logo,Inputs, Regi
 const Login = () => {
   return (
     <LoginSection>
+      
       <Container>
       <Logo src={require('../../img/logo/gersa_logo.png')} alt=""/>
        
@@ -16,7 +17,7 @@ const Login = () => {
            <Inputs type="text" name="" id="" placeholder="Usuario:"/><br/>
            <Inputs type="password" name="" id="" placeholder="Contraseña:"/>
            <Inputs type="submit" value="Inicia Sesión"/><br/>
-           <RegistroLink href="" class="registro">Crea una Cuenta</RegistroLink>
+           <RegistroLink href="" className="registro">Crea una Cuenta</RegistroLink>
         </FormAccess>
         
       </Container>

@@ -4,7 +4,13 @@ export const LoginSection=styled.section`
 width: 100%;
 display: flex;
 color:#000;
+@media screen and (max-width: 800px) {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 
+
+}
 
 `
 
@@ -13,6 +19,13 @@ padding: 160px;
     width: 50%;
     display: flex;
 flex-direction: column;
+@media screen and (max-width: 800px) {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 80px;
+}
+
 `
 export const Logo=styled.img`
 
@@ -29,16 +42,18 @@ export const DescriptionText=styled.p`
     font-family: 'Roboto', sans-serif;
     padding-right: 5px;
     text-align: center;
-display: flex;
+   display: flex;
 `
 export const FormAccess=styled.form`
-
-
-
-
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+align-content: center;
 `
 export const Inputs=styled.input`
-
+justify-content: center;
+align-items: center;
 margin-left: 30%;
     width: 340px;
     margin-top: 25px;
@@ -51,7 +66,7 @@ margin-left: 30%;
     font-size: 20px;
     box-shadow: 0 2px #075d07;
 display: flex;
-
+flex-wrap: wrap;
  &[type="submit"] {
     width: auto;
     background-color: #000;
@@ -61,6 +76,15 @@ display: flex;
     margin-left: 50%;
     
 }
+@media screen and (max-width: 800px) {
+display: flex;
+margin-left:0%;
+width: 200px;
+justify-content: center;
+align-items: center;
+}
+
+
 
 
 `
@@ -76,6 +100,7 @@ margin-top: 15px;
     font-size: 20px;
     border-radius: 5px;
     color:#fff;
+display: flex;
 
 
 
