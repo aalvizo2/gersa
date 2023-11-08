@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Login from './Pages/Login/Login'
 import Navbar from './Components/Navbar/Navbar';
-import { Route } from 'react-router-dom';
+
+import Register from './Pages/Register/Register';
+import Routes from './Routes/Routes';
 
 
 
@@ -16,7 +18,8 @@ function App() {
     <div>
      
       <Navbar />
-    <Login />
+   
+    <Routes/>
   
     </div>
     

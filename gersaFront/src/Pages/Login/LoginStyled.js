@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const LoginSection=styled.section`
+export const MainSection=styled.section`
 width: 100%;
 display: flex;
 color:#000;
@@ -88,7 +89,7 @@ align-items: center;
 
 
 `
-export const RegistroLink = styled.a`
+export const RegistroLink = styled(Link)`
 
 margin-top: 15px;
     margin-left: 48%;
