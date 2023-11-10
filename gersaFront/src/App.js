@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Login from './Pages/Login/Login'
 import Navbar from './Components/Navbar/Navbar';
-
+import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom';
 import Register from './Pages/Register/Register';
 import Routes from './Routes/Routes';
+import Home from './Pages/Home/Home';
 
 
 
@@ -14,14 +15,14 @@ import Routes from './Routes/Routes';
 
 function App() {
   return (
-   
-    <div>
+   <BrowserRouter>
+    
      
       <Navbar />
-   
+  
     <Routes/>
   
-    </div>
+    </BrowserRouter>
     
   );
 }

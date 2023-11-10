@@ -6,7 +6,7 @@ width: 100%;
 display: flex;
 color:#000;
 @media screen and (max-width: 800px) {
-display: flex;
+
 flex-direction: column;
 flex-wrap: wrap;
 
