@@ -1,19 +1,22 @@
 import React from 'react'
-import { DescriptionText, MainSection, RegistroLink, Title } from '../Login/LoginStyled'
-import { HomeSection } from './HomeStyle'
+
+import { AboutLink, ContainerHome, DescriptionHome, HomeSection, TitleHome } from './HomeStyle'
 
 const Home = () => {
   return (
     
 <HomeSection>
 
-           <Title>Conoce Nuestra Empresa</Title>
+
+
+<ContainerHome>
+           <TitleHome>Conoce Nuestra Empresa</TitleHome>
            
           
 
-            <DescriptionText>Especializada en Interventoría, certificaciones, inspecciones de equipos, END, seguridad industrial y asesorías en áreas de la Industria cementera a nivel nacional.</DescriptionText>
-           
-            <RegistroLink>Mas de Nosotros</RegistroLink>
+            <DescriptionHome>Especializada en Interventoría, certificaciones, inspecciones de equipos, END, seguridad industrial y asesorías en áreas de la Industria cementera a nivel nacional.</DescriptionHome>
+            </ContainerHome>
+            <AboutLink>Mas de Nosotros</AboutLink>
         
             
 </HomeSection>
