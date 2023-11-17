@@ -64,3 +64,18 @@ display: flex;
 
 
 `
+export const CarruselComponents=styled.div`
+
+border-radius: 20px;
+  background-color: #ffdead;
+  width: 250px;
+  height: 480px; 
+
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+`
