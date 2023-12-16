@@ -24,8 +24,4 @@ app.listen(port, ()=>
 {
 
 console.log(`server listing port ${port}`);
-
-}
-
-
-)
+})

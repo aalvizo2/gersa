@@ -6,6 +6,7 @@ import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom';
 import Register from './Pages/Register/Register';
 import Routes from './Routes/Routes';
 import Home from './Pages/Home/Home';
+import Mission from './Pages/Mission/Mission';
 
 
 
@@ -22,7 +23,7 @@ function App() {
       <Navbar />
   
     <Routes/>
-  
+
     </BrowserRouter>
     
   );

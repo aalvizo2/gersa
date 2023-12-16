@@ -14,6 +14,9 @@ import imgBack2 from'../../Components/images/Backcarrusel2.png';
 import imgBack from '../../Components/images/3.jpg'
 import imgBack3 from '../../Components/images/Backcarrusel3.png'
 import imgBack4 from '../../Components/images/Backcarrusel4.png'
+import Mission from '../Mission/Mission';
+import FrequentAsk from '../Questions/FrequentAsk';
+import Contact from '../Contact/Contact';
 
 
 
@@ -133,6 +136,13 @@ imgSrc: imgBack3,
           </Slider>
         </CarruselContainer>
       </ProyectSection>
+
+
+
+      <Mission/>
+      <FrequentAsk/>
+<Contact/>
+
       </div>
     );
   };
