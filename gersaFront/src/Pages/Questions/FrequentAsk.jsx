@@ -1,17 +1,11 @@
 import React from 'react'
 import { Container1, Container2 } from '../Mission/MissionStyled'
-import { Question, QuestionContainer, TitleQ } from './Ask'
-import { Title } from '../Login/LoginStyled'
+import { Question, QuestionContainer } from './Ask'
 
 const FrequentAsk = () => {
   return (
-
- 
-
     <QuestionContainer>
-        
-   <TitleQ>PREGUNTAS FRECUENTES</TitleQ>
-   
+    <h1>PREGUNTAS FRECUENTES</h1>
 <Container1>
 
 <Question></Question>

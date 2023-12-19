@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ContactContainer, ContactForm, FormContainer } from './ContactStyled'
+import { ButtonForm, ContactContainer, ContactForm, FormContainer, FormInput, FormLabel, FormTitle, MessageArea } from './ContactStyled'
 
 const Contact = () => {
 const[email,setEmail]=useState('');
@@ -18,27 +18,29 @@ console.log ('Envio Exitoso:',{email, phone ,message})
   return (
 <ContactContainer>
 <FormContainer>
-<h1>Contacto</h1>
+<FormTitle>Contacto</FormTitle>
+
+
 <ContactForm onSubmit={handleForm}>
-<label>
+<FormLabel>
 Email:
-<input type='email' value={email} onChange={(e)=>setEmail(e.target.value)} required/>
-</label>
-<label>
+<FormInput type='email' value={email} onChange={(e)=>setEmail(e.target.value)} required/>
+</FormLabel>
+<FormLabel>
 Telefono:
-<input type="tel" value={phone} onChange={(e)=>setPhone(e.target.value)} required/> 
+<FormInput type="tel" value={phone} onChange={(e)=>setPhone(e.target.value)} required/> 
 
-</label>
+</FormLabel>
 
 
-<label>
+<FormLabel>
 Mensaje:
-<textarea value={message} onChange={(e)=>SetMessage(e.target.value)}required/>
+<MessageArea value={message} onChange={(e)=>SetMessage(e.target.value)}required/>
 
 
-</label>
+</FormLabel>
 
-<button type='submit'>Enviar Mensaje</button>
+<ButtonForm type='submit'>Enviar</ButtonForm>
 
 
 
