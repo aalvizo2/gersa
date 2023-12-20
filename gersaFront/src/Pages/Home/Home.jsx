@@ -17,6 +17,7 @@ import imgBack4 from '../../Components/images/Backcarrusel4.png'
 import Mission from '../Mission/Mission';
 import FrequentAsk from '../Questions/FrequentAsk';
 import Contact from '../Contact/Contact';
+import KnonwTheTeam from '../Team/KnonwTheTeam';
 
 
 
@@ -141,8 +142,8 @@ imgSrc: imgBack3,
 
       <Mission/>
       <FrequentAsk/>
-<Contact/>
-
+ <Contact/>
+<KnonwTheTeam/>
       </div>
     );
   };

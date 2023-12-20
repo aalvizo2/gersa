@@ -1,12 +1,17 @@
 import React from 'react'
 import { Container1, Container2 } from '../Mission/MissionStyled'
-import { Question, QuestionContainer } from './Ask'
+import { MainContainer, Question, QuestionContainer, QuestionContainer1, QuestionContainer2, SectionTitle } from './Ask'
 
 const FrequentAsk = () => {
   return (
     <QuestionContainer>
+      
+      <SectionTitle>
     <h1>PREGUNTAS FRECUENTES</h1>
-<Container1>
+    </SectionTitle>
+
+  <MainContainer>
+<QuestionContainer1>
 
 <Question></Question>
 <Question></Question>
@@ -14,8 +19,8 @@ const FrequentAsk = () => {
 <Question></Question>
 <Question></Question>
 
-</Container1>
-<Container2>
+</QuestionContainer1>
+<QuestionContainer2>
 
 <Question></Question>
 <Question></Question>
@@ -24,9 +29,9 @@ const FrequentAsk = () => {
 <Question></Question>
 
 
-</Container2>
+</QuestionContainer2>
 
-
+</MainContainer>
 
 </QuestionContainer>
 

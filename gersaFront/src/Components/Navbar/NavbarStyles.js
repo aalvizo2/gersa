@@ -51,13 +51,14 @@ padding: 25px;
 `
 export const LogoNav=styled.img`
     margin-left: 25px;
-    width: 5%;
+    width: 100px;
+    height: 100px;
    padding: 5px 5px;
-
+ flex-wrap: nowrap;
    @media screen and (max-width: 800px) {
 
     margin-left: 25px;
-        width: 20%;
+    
 
    }
 
