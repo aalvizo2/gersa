@@ -13,6 +13,7 @@ Router.post('/acceder',(req, res) => {
             console.log(usuario)
             res.json({success: true, message: 'Login Exitoso'})
         }else{
+            res.json({success: false, message: 'Credenciales Incorrectas'})
             console.log('Error de autenticacion')
         }
     })
