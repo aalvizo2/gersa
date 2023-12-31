@@ -18,6 +18,7 @@ import Mission from '../Mission/Mission';
 import FrequentAsk from '../Questions/FrequentAsk';
 import Contact from '../Contact/Contact';
 import KnonwTheTeam from '../Team/KnonwTheTeam';
+import Allies from '../Allies/Allies';
 
 
 
@@ -144,6 +145,7 @@ imgSrc: imgBack3,
       <FrequentAsk/>
  <Contact/>
 <KnonwTheTeam/>
+<Allies/>
       </div>
     );
   };

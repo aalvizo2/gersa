@@ -7,6 +7,7 @@ import Register from './Pages/Register/Register';
 import Routes from './Routes/Routes';
 import Home from './Pages/Home/Home';
 import Mission from './Pages/Mission/Mission';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -23,7 +24,7 @@ function App() {
       <Navbar />
   
     <Routes/>
-
+<Footer/>
     </BrowserRouter>
     
   );

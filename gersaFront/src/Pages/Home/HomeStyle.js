@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import backgroundImage from '../../Components/images/3.jpg';
+
 import backgroundImage2 from '../../Components/images/trabajoenequipo.jpg';
 
 

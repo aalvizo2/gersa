@@ -18,11 +18,11 @@ app.use(bodyParser.json());
 
 console.log('hola desde node')
 
-
+app.use('/', login)
 
 
 const port=3308
 app.listen(port, ()=>{
-   app.use('/', login)
+
    console.log('server running on 3308')
 })

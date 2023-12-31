@@ -5,11 +5,12 @@ export const MainSection=styled.section`
 width: 100%;
 display: flex;
 color:#000;
+height: 100vh;
+
 @media screen and (max-width: 800px) {
 
 flex-direction: column;
 flex-wrap: wrap;
-
 
 }
 

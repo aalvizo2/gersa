@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const NavbarStyles=styled.nav`
    position: fixed;
-   z-index: 1;
+   z-index: 8000;
    font-family: 'Roboto', sans-serif;
    display: flex;
    width: 100%;

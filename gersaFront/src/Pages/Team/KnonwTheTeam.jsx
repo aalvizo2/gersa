@@ -1,18 +1,30 @@
 import React from 'react'
-import { SectionTitle } from '../Questions/Ask'
-import { DecorationLine, MembersContainers, TeamContainer, TeamMember, Title } from './TeamStyled'
+
+import { DecorContainer, DecorationLine, DoubleDecorationLine, ImgContainer, MemberPicture, MembersContainers, TeamContainer, TeamMember, Title, TitleContainer } from './TeamStyled'
 
 const KnonwTheTeam = () => {
   return (
     <TeamContainer>
+    
+    <TitleContainer>
     <Title>
     
     Conoce al equipo  
-  
   </Title>
-    
+  </TitleContainer>
        <MembersContainers>
-       
+    
+         <TeamMember>
+           <ImgContainer>
+         <MemberPicture src={require('../../img/PersonPicture.jpg')} />
+           </ImgContainer>
+
+
+
+        </TeamMember>
+
+
+
         <TeamMember>
 
 
@@ -20,12 +32,14 @@ const KnonwTheTeam = () => {
 
 
 
-        <TeamMember>
+<DecorContainer>
+<DecorationLine/>
+<DoubleDecorationLine/>
 
 
-        </TeamMember>
+</DecorContainer>
 
-<DecorationLine></DecorationLine>
+
 
 
         <TeamMember>
