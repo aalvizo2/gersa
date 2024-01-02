@@ -17,6 +17,9 @@ justify-content: center;
 
 gap: 40px;
 align-items: center;
+@media screen and (max-width: 1000px) {
+  flex-direction: column;
+}
 `
 
 export const TeamMember=styled.div`
@@ -36,7 +39,10 @@ background-color: orange;
 position: absolute;
 justify-content: center;
 align-items: center;
-
+@media screen and (max-width: 1000px) {
+    width: 10px;
+    height: 100%;
+  }
 `
 export const Title=styled.h1`
 display: flex;
@@ -60,7 +66,9 @@ width: 100%;
 position: absolute;
 
 align-items: center;
-
+@media screen and (max-width: 1000px) {
+flex-direction: column;
+  }
 `
 export const DoubleDecorationLine = styled.div`
   display: flex;
@@ -71,8 +79,13 @@ export const DoubleDecorationLine = styled.div`
   justify-content: space-between;
   align-items: center;
   top: 55%;
-  
-
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    height: 100%;
+    width: 10px; 
+    justify-content: center;
+    align-content: space-around;
+  }
 `;
 
 export const ImgContainer=styled.div`

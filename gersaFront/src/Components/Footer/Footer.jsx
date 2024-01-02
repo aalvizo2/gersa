@@ -20,7 +20,7 @@ const Footer = () => {
 <FooterList>
 <li>Avisos Legales</li>
 <li>Politica de Privacidad</li>
-<li>Cindiciones de Servicio</li>
+<li>Condiciones de Servicio</li>
 
 </FooterList>
 
