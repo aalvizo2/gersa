@@ -11,7 +11,7 @@ border: 1px solid black;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 width: 500px;
 }
 `
@@ -42,7 +42,7 @@ width: 100%;
 color: green;
 font-size: 20px;
 gap: 100px;
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 gap: 0;
 }
 `
@@ -55,7 +55,7 @@ background-color: transparent;
 border: 1px solid green;
 justify-items: center;
 align-items: center;
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 width: 100%;
 }
 `
@@ -67,7 +67,7 @@ border: 1px solid green;
 
 display: flex;
 flex-wrap: wrap;
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 width: 100%;
 
 }
