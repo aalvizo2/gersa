@@ -3,7 +3,7 @@ import styled from "styled-components";
  export const FormContainer=styled.div`
 display:  flex;
 flex-wrap: wrap;
-width: 1000px;
+width: 700px;
 background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, lightgreen 100%);
 height: 500px;
@@ -37,11 +37,12 @@ flex-wrap: wrap;
 `
 export const FormLabel=styled.label`
 display: flex;
+flex-direction: column;
 flex-wrap: wrap;
 width: 100%;
 color: green;
 font-size: 20px;
-gap: 100px;
+
 @media screen and (max-width: 1000px) {
 gap: 0;
 }
